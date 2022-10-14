@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header{
+    padding-top: 44px;
+}
+.logo{
+    display: inline-flex;
+    line-height: 18px;
+}
+.logo-txt{
+    display: inline-flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.address{
+    max-width: 690px;
+    width: 100%;
+    height: 40px;
+    padding-left: 32px;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    background: url(/divfood/img/Vector4.png) no-repeat 11px center;
+}
+.address::placeholder{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 200;
+    color: #bfbfbf;
+}
+.buttons{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.button--primary{
+    background: #1890ff;
+    color: #ffff;
+    width: 97px;
+    height: 40px;
+    border: 0px;
+}
+.button--seondary{
+    background: transparent;
+    border: 0.1px solid rgb(100, 100, 100);
+    margin-left: 9px;
+    width: 97px;
+    height: 40px;
+}
+.main{
+    display: flex;
+    padding-top: 40px;
+    background: linear-gradient(180deg, rgba(206, 206, 206, 0) 1.04%, #F5F5F5 100%);
+    justify-content: center;
+}
+.online{
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 1200px;
+    border-radius: 10px;    
+    background: rgb(240, 226, 150);   
+}
+
+.online-txt{
+    display: inline-block;
+    width: 515px;
+    height: 300px;
+    align-items: center;
+}
+.online_img{
+    display: inline-block;
+    width: 685px;
+    height: 300px;
+    background: url(/divfood/img/preview\ 1.png) ;
+}
+.online-p{
+    font-size: 22px;
+    padding-left: 70px;
+    
+}
+.online-h{
+    padding-left: 70px;
+    padding-top: 68px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+
+}
+.mid-txt{
+    display: inline-flex;
+}
+.search{
+    display: inline-flex;
+    max-width: 300px;
+    width: 100%;
+    height: 34px;
+    padding-left: 32px;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    background: url(/divfood/img/lupa.png) no-repeat 10px center;
+
+}.search::placeholder{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #bfbfbf;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding-top: 56px;
+}
+.card{
+    display: inline-flex;
+    justify-content: space-between;
+    height: 377px;
+    width: 384px;
+    background: #ffffff;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    flex-wrap: wrap;
+}
+.cards2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding-top: 56px;
+    padding-bottom: 90px;
+
+}
+.card-main{
+    justify-content: space-between;
+    display: flex;
+    height: 32px;
+    width: 384px;
+    padding-left: 24px;
+    padding-right: 32px;
+    font-size: 24px;
+}
+.card-bot{
+    justify-content: space-between;
+    display: flex;
+    width: 384px;
+    padding-right: 132px;
+    padding-left: 24px;
+    color: #8C8C8C;
+}
+.min{
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 2px;
+    color: white;
+    background-color: #262626;
+    width: 55px;
+    height: 22px;
+    
+}
+.card-h3{
+    font-size: 24px;
+}
+.rating{
+    font-weight: 700;
+    font-size: 18px;    
+    color: #FFC107;
+}
+.coll{
+    padding-top: 10px;
+    padding-left: 35px;
+    color: #595959;
+    display: inline-flex;
+}
+.footer{
+    height: 156px;
+    
+}
+.logo2{
+    padding-top: 70px;
+}
+.coll-txt{
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.social{
+    padding-top: 70px;
+}
+.social-img{
+    padding-left: 30px;
+}
+.head{
+    position: relative;
+    display: flex;
+    height: 42px;
+}
+
+.head-h2{
+    display: flex;
+    padding-left: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.head-1{
+    display: flex;
+    padding-left: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #8C8C8C;
+}
+.card-button{
+    width: 97px;
+    height: 40px;
+    background: #1890FF;
+    border-radius: 2px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 0px;
+    
+    
+}
+.card-bot2{
+    justify-content: start;
+    display: flex;
+    width: 384px;
+    padding-left: 24px;
+}
+.card2{
+    display: inline-flex;
+    justify-content: space-between;
+    height: 416px;
+    width: 384px;
+    background: #ffffff;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    flex-wrap: wrap;  
+}
+.card-head{
+    padding-left: 24px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    
+}
+.card-main2{
+    padding-left: 24px;
+    
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.price{
+    padding-left: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
