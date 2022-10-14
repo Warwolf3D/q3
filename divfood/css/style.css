@@ -143,6 +143,7 @@
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
     border-radius: 7px;
     flex-wrap: wrap;
+    text-decoration: none;
 }
 .cards2{
     display: flex;
@@ -161,6 +162,7 @@
     padding-left: 24px;
     padding-right: 32px;
     font-size: 24px;
+    color: black;
 }
 .card-bot{
     justify-content: space-between;
