@@ -65,8 +65,8 @@
 .main{
     display: flex;
     padding-top: 40px;
-    background: linear-gradient(180deg, rgba(206, 206, 206, 0) 1.04%, #F5F5F5 100%);
     justify-content: center;
+    background: linear-gradient(180deg, rgba(206, 206, 206, 0) 1.04%, #F5F5F5 100%);
 }
 .online{
     position: relative;
